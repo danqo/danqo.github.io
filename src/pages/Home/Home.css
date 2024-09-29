@@ -3,8 +3,8 @@
   width: 100%;
   margin: 0 auto 2rem;
   border-radius: 50%;
-  margin-left: 16px;
-  margin-right: 16px;
+  box-sizing: border-box;
+  padding: 16px;
 }
 
 .home-container {
