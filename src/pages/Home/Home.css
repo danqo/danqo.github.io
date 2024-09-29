@@ -1,0 +1,18 @@
+.home-hero {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto 2rem;
+  border-radius: 50%;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.home-container {
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1170px;
+  margin: auto;
+  margin-top: 4rem;
+}

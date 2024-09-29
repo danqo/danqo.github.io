@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  max-width: 1170px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-right .nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right .nav-links li {
+  margin-left: 1rem;
+}
+
+ul li a {
+  color: #f9f9fa;
+  display: inline-block;
+  position: relative;
+  text-decoration-color: transparent;
+  transition: all 0.3s ease;
+}
+
+ul li a:hover {
+  text-decoration-color: inherit;
+}
+
+ul li a.active {
+  text-decoration-color: inherit;
+}
+
+.logo {
+  width: auto;
+  max-height: 40px;
+}
